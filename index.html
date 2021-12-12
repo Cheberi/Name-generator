@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,19 @@
     <div class="container">
       <h1>Akan name generator</h1>
       <p>Hi! Welcome to Akan name generator. This website outlays yoor Akan name simply by taking in your birthday and gender</p>
+      <p>All you have to do is to fill in the form below and tap on the submit button</p>
+      <form class="form" onsubmit="return generateAkanName()">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" type="number">
+        <p>Please select your gender: </p>
+        Male
+        <input id="male-input" type="radio" name="gender" value="male" required>
+        Female
+        <input id="female-input" type="radio" name="gender" value="female" required>
+        <input type="submit">
+
+      </form>
+
     </div>
   </div>
 </body>

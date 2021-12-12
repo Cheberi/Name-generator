@@ -1,0 +1,12 @@
+body {
+  background-color: aqua;
+  text-align: center;
+  font-size: 18px;
+}
+
+#birthday {
+  border-radius: 2px;
+  width: 140px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
