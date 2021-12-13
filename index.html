@@ -1,58 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Name-Generator</title>
-</head>
-<body>
-  <div class="name">
-    <div class="container">
-      <h1>Akan name generator</h1>
-      <p>Hi! Welcome to Akan name generator. This website outlays your Akan name simply by taking in your birthday and gender</p>
-      <p>All you have to do is to fill in the form below and hit on the submit button</p>
-      <form class="form" onsubmit="return getAkanName()">
-        <label for="birth-year">year:
-          <input type="number" id="year-input" name="year-of-birth" placeholder="YYYY" value="" required>
-        </label>
-        <label for="birth-month">Month:
-          <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
-        </label>
-        <label for="birth-day">Day:
-          <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
-        </label>
-        <label for="genders">
-        <label for="genders">
-        <p>Please select your gender: </p>
-        Male
-        <input id="male-input" type="radio" name="gender" value="male" required>
-        Female
-        <input id="female-input" type="radio" name="gender" value="female" required>
-      </label>
-      <br><br>
-        <input id="submit-button" type="submit">
-      <br><br>
-    </form>
-    
-      <form onsubmit="return clearInput ()">
-        <input class="clear" type="submit" value="clear">
-      </form>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="utf-8">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="css/style.css" media="all">
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <h1>The Akan name generator!</h1>
+        <p>Hi! Welcome to my website where you find your Akan name by filling in the form below with your birth year, month and day. <br> The names are drawn from ghananian culture where children are given names according to the day the are born.</p>
+        <p>Fill the form below and hit the submit  button.
+        <form class="myform" onsubmit="return getAkanName()">
+          <label for="year-of-birth">
+            Year:
+            <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+          </label>
+          <label for="month-of-birth">
+            Month:
+            <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+          </label>
+          <label for="day-of-birth">
+            Day:
+            <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+          </label>
+          <br>
+          <label for="gender">
+            <p>Select your gender: </p>
+            Male
+            <input id="male-input" type="radio" name="gender" value="male" required>
+            Female
+            <input id="female-input" type="radio" name="gender" value="female" required>
 
-    <h3 id="show-name"><strong>Your Akan name is displayed below</strong></h3>
-    <p id="result"></p>
+          </label>
+          <br><br>
+          <input id="get-name" type="submit" name="" value="Generate name">
+          <br><br>
+        </form>
+        <form onsubmit="return clearInput()">
+          <input class="clear" type="submit" value="Clear input">
+        </form>
 
 
-        
-    
-
-    
-
+        <h4 id = display-name><strong>Your Akan name will be displayed below:</strong></h4>
+        <p id="result"></p>
+      </div>
     </div>
-  </div>
 
-  <script src="script.js" ></script>
-  <script src="scripts.js"></script>
-</body>
+    <script src="script/script.js" ></script>
+
+  </body>
 </html>
