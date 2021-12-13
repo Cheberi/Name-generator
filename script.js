@@ -1,4 +1,4 @@
-function generateAkanName () {
+function getAkanName () {
   let yearOfBirth = document.getElementById("Birthday").Value;
   let monthOfBirth = Number(document.getElementById("month-input").value);
   let dayOfBirth = Number(document.getElementById("day-input").value);
