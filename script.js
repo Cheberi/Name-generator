@@ -1,5 +1,7 @@
 function generateAkanName () {
-  let birthday = document.getElementById("Birthday").ariaValueMax;
+  let yearOfBirth = document.getElementById("Birthday").Value;
+  let monthOfBirth = Number(document.getElementById("month-input").value);
+  let dayOfBirth = Number(document.getElementById("day-input").value);
   let genders = document.getElementsByName("gender")
 
   function getGender () {
@@ -14,5 +16,5 @@ function generateAkanName () {
   console.log(myGenderValue)
 
 
-  
+
 }
