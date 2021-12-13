@@ -9,6 +9,7 @@ body {
   width: 60px;
   height: 20px;
   box-shadow: black;
+  background-color: yellow;
 }
 
 #month-input{
@@ -16,6 +17,7 @@ body {
   width: 60px;
   height: 20px;
   box-shadow: black;
+  background-color: yellow;
 }
 
 #day-input{
@@ -23,10 +25,18 @@ body {
   width: 60px;
   height: 20px;
   box-shadow: black;
+  background-color: yellow;
 }
 
-#submit-button {
+#submit {
   border-radius: 2px;
   width: 60px;
+  background-color: yellow;
+}
+
+.clear {
+  border-radius: 2px;
+  width: 50px;
+  background-color: yellow;
 }
 
