@@ -1,3 +1,4 @@
+
 function getAkanName () {
     let yearOfBirth = document.getElementById("year-input").value;
     let monthOfBirth = Number(document.getElementById("month-input").value);
@@ -106,7 +107,7 @@ function getAkanName () {
           return false;
           break;
         default:
-          alert("Akan name not found");
+          alert("mmh no Akan name for you");
   
       }
     } else if(myGenderValue == "female" && monthValid && dayValid) {
@@ -153,9 +154,10 @@ function getAkanName () {
           return false;
           break;
         default:
-          alert("Akan name not found");
+          alert("mmh no Akan name for you");
         }
       } else{
         alert("You entered invalid month or day");
       }
-}
+    }
+  
