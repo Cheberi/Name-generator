@@ -13,7 +13,7 @@ This website takes in a person's birth day, month & year and outputs their Akan 
 * Javascript
 
 ## Github Pages 
- https://Cheberi.github.io/Name-Generataor/
+https://cheberi.github.io/Name-generator/
 
 ## License
 The MIT License
@@ -36,4 +36,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-Copyright (c) 2019 **Meshack Cheberi**
+Copyright (c) 2021 **Cheberi**
