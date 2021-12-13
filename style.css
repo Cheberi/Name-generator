@@ -4,9 +4,28 @@ body {
   font-size: 18px;
 }
 
-b {
+ #year-input{
   border-radius: 2px;
-  width: 140px;
+  width: 60px;
   height: 20px;
-  box-shadow: 2px 2px #000000;
+  box-shadow: black;
+}
+
+#month-input{
+  border-radius: 2px;
+  width: 60px;
+  height: 20px;
+  box-shadow: black;
+}
+
+#day-input{
+  border-radius: 2px;
+  width: 60px;
+  height: 20px;
+  box-shadow: black;
+}
+
+#submit-button {
+  border-radius: 2px;
+  width: 60px;
 }
